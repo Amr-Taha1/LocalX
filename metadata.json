@@ -1,0 +1,6 @@
+{
+  "name": "LocalX",
+  "description": "LocalX - A private social networking web application for family with real-time posts, multi-media stories, messenger, and bilingual EN/AR support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

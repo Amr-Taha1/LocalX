@@ -1,0 +1,183 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark background matching image.png -->
+  <rect width="512" height="512" rx="32" fill="#04040c"/>
+  
+  <defs>
+    <!-- White-to-light-silver gradient for the 'L' shape -->
+    <linearGradient id="l_grad" x1="180" y1="150" x2="280" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#FFFFFF" />
+      <stop offset="60%" stopColor="#F3F4F6" />
+      <stop offset="100%" stopColor="#D1D5DB" />
+    </linearGradient>
+
+    <!-- Electric Blue to Indigo & Purple gradient for chevron -->
+    <linearGradient id="k_grad" x1="250" y1="220" x2="340" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#3B82F6" />
+      <stop offset="40%" stopColor="#4F46E5" />
+      <stop offset="75%" stopColor="#7C3AED" />
+      <stop offset="100%" stopColor="#A855F7" />
+    </linearGradient>
+
+    <!-- Gradient for X in the wordmark -->
+    <linearGradient id="x_grad" x1="345" y1="310" x2="395" y2="345" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#3B82F6" />
+      <stop offset="45%" stopColor="#6366F1" />
+      <stop offset="85%" stopColor="#8B5CF6" />
+      <stop offset="100%" stopColor="#A855F7" />
+    </linearGradient>
+  </defs>
+
+  <!-- 1. The White 'L' Emblem Piece -->
+  <path
+    d="M 188 168
+       C 188 161.4 193.4 156 200 156
+       C 206.6 156 212 161.4 212 168
+       L 212 254
+       C 212 260.6 217.4 266 224 266
+       L 272 266
+       C 278.6 266 283.4 272.2 280.6 278.2
+       L 274.6 291.2
+       C 272.2 296.4 267 299.8 261.2 299.8
+       L 215 299.8
+       C 200.1 299.8 188 287.7 188 272.8
+       Z"
+    fill="url(#l_grad)"
+  />
+
+  <!-- 2. The Electric Purple/Blue Chevron Piece -->
+  <path
+    d="M 255 244
+       L 302 180
+       L 336 180
+       C 341 180 343.8 185.8 340.4 189.4
+       L 299 245
+       L 342.2 300.6
+       C 345.6 304.2 342.8 310 337.8 310
+       L 304 310
+       Z"
+    fill="url(#k_grad)"
+  />
+
+  <!-- 3. The Wordmark: Local -->
+  <!-- Letter 'L' -->
+  <path
+    d="M 122 322
+       C 122 316.5 126.5 312 132 312
+       C 137.5 312 142 316.5 142 322
+       L 142 346
+       C 142 350.4 145.6 354 150 354
+       L 165 354
+       C 170.5 354 175 358.5 175 364
+       C 175 369.5 170.5 374 165 374
+       L 142 374
+       C 131 374 122 365 122 354
+       Z"
+    fill="#FFFFFF"
+  />
+
+  <!-- Letter 'o' -->
+  <path
+    fill-rule="evenodd"
+    clip-rule="evenodd"
+    d="M 188 326
+       C 188 318.3 194.3 312 202 312
+       L 220 312
+       C 227.7 312 234 318.3 234 326
+       L 234 360
+       C 234 367.7 227.7 374 220 374
+       L 202 374
+       C 194.3 374 188 367.7 188 360
+       Z
+       M 203 325
+       C 200.2 325 198 327.2 198 330
+       L 198 356
+       C 198 358.8 200.2 361 203 361
+       L 219 361
+       C 221.8 361 224 358.8 224 356
+       L 224 330
+       C 224 327.2 221.8 325 219 325
+       Z"
+    fill="#FFFFFF"
+  />
+
+  <!-- Letter 'c' -->
+  <path
+    d="M 284 322
+       C 284 316.5 279.5 312 274 312
+       L 258 312
+       C 250.3 312 244 318.3 244 326
+       L 244 360
+       C 244 367.7 250.3 374 258 374
+       L 274 374
+       C 279.5 374 284 369.5 284 364
+       C 284 358.5 279.5 354 274 354
+       L 259 354
+       C 256.2 354 254 351.8 254 349
+       L 254 337
+       C 254 334.2 256.2 332 259 332
+       L 274 332
+       C 279.5 332 284 327.5 284 322
+       Z"
+    fill="#FFFFFF"
+  />
+
+  <!-- Letter 'a' -->
+  <path
+    fill-rule="evenodd"
+    clip-rule="evenodd"
+    d="M 295 326
+       C 295 318.3 301.3 312 309 312
+       L 327 312
+       C 334.7 312 341 318.3 341 326
+       L 341 368
+       C 341 371.3 338.3 374 335 374
+       C 331.7 374 329 371.3 329 368
+       L 329 362
+       C 326 369 319 374 311 374
+       C 302.2 374 295 366.8 295 358
+       Z
+       M 307 334
+       C 306 334 305 335 305 336
+       L 305 352
+       C 305 356.4 308.6 360 313 360
+       C 317.4 360 321 356.4 321 352
+       L 321 336
+       C 321 335 320 334 319 334
+       Z"
+    fill="#FFFFFF"
+  />
+
+  <!-- Letter 'l' -->
+  <path
+    d="M 352 316
+       C 352 311.6 355.6 308 360 308
+       C 364.4 308 368 311.6 368 316
+       L 368 370
+       C 368 374.4 364.4 378 360 378
+       C 355.6 378 352 374.4 352 370
+       Z"
+    fill="#FFFFFF"
+  />
+
+  <!-- 4. The Gradient 'X' -->
+  <path
+    d="M 378 322
+       C 374.6 317.4 376 312 381.2 310
+       C 386.4 308 391 310.2 393.6 314.8
+       L 409 341
+       L 424.4 314.8
+       C 427 310.2 431.6 308 436.8 310
+       C 442 312 443.4 317.4 440 322
+       L 421.5 348
+       L 441.5 374.5
+       C 444.6 378.8 443.2 384.2 438.2 386.2
+       C 433.2 388.2 428.4 386 425.8 381.5
+       L 409 355
+       L 392.2 381.5
+       C 389.6 386 384.8 388.2 379.8 386.2
+       C 374.8 384.2 373.4 378.8 376.5 374.5
+       L 396.5 348
+       Z"
+    fill="url(#x_grad)"
+  />
+</svg>
